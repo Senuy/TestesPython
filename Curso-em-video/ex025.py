@@ -2,4 +2,7 @@
 nome = input('Digite o seu nome: ')
 nome = nome.title()
 nome = nome.split()
-c = nome[0:].find('Silva')
+c = nome[0].find('Silva')
+c = nome[1].find('Silva')
+c = nome[2].find('Silva')
+c = nome[3].find('Silva')
