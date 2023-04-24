@@ -1,8 +1,3 @@
 # Crie um program que leia o noem de uma pessoa e diga se ela tem silva no nome
-nome = input('Digite o seu nome: ')
-nome = nome.title()
-nome = nome.split()
-c = nome[0].find('Silva')
-c = nome[1].find('Silva')
-c = nome[2].find('Silva')
-c = nome[3].find('Silva')
+nome = input('Digite o seu nome: ').strip().title()
+print(f'O seu nome tem Silva {"Silva" in nome} ')
